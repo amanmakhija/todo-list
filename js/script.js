@@ -44,7 +44,7 @@ const removeItem = function(item) {
 //to give icons like complete one and delete one
 const getList = function(todoItems) {
     itemList.innerHTML = "";
-    todoItems.forEach(function(items) {
+    todoItems.forEach(function(item) {
         itemList.insertAdjacentHTML("beforeend",
         `<div class="item my-3">
             <h5 class="item-name text-capatilize">${item}</h5>
