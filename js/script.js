@@ -50,13 +50,13 @@ const getList = function(todoItems) {
             <h5 class="item-name text-capatilize">${item}</h5>
             <div class="item-icons">
                 <a href="#" class="complete-item mx-2 item-icon">
-                    <i class="far fa-check-circle"></i>
+                    <i class="fa fa-check-circle"></i>
                 </a>
                 <a href="#" class="edit-item mx-2 item-icon">
-                    <i class="far fa-edit"></i>
+                    <i class="fa fa-edit"></i>
                 </a>
                 <a href="#" class="delete-item mx-2 item-icon">
-                    <i class="far fa-times-circle"></i>
+                    <i class="fa fa-times-circle"></i>
                 </a>
             </div>
         </div>`);
